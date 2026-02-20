@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="server-sidebar">
+            <div class="server-icon">🏠</div>
+            <div class="server-icon add-btn">+</div>
+        </div>
+
+        <div class="channels-sidebar">
+            <div class="server-header">My Chat Server</div>
+            <div class="channel-item"># general</div>
+            <div class="channel-item"># gaming</div>
+        </div>
+
+        <div class="chat-area">
+            <div class="messages" id="message-container">
+                <div class="msg"><b>System:</b> Welcome! Upload to GitHub to start.</div>
+            </div>
+            <div class="input-bar">
+                <input type="text" id="msg-input" placeholder="Message #general">
+                <button onclick="send()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
